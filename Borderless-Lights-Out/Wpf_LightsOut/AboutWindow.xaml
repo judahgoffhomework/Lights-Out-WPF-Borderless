@@ -1,0 +1,20 @@
+﻿<Window x:Class="Wpf_LightsOut.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="About Lights Out" Height="140" Width="300" ResizeMode="NoResize" Icon="lightbulb.ico"
+        WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="109" />
+            <ColumnDefinition Width="169*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="Lights Out!" Height="29" VerticalAlignment="Top" HorizontalContentAlignment="Center" />
+        <Label Content="By Frank McCown" HorizontalContentAlignment="Center" Height="25" VerticalAlignment="Bottom" />
+        <Image Margin="30,27,28,31" Name="image1" Stretch="Fill" Source="lightbulb.ico" />
+        <Button Grid.Column="1" MinWidth="80" Margin="46,0,43,3" Content="OK" Click="Button_Click" Height="22" VerticalAlignment="Bottom" />
+        <TextBlock Grid.Column="1" Margin="0,12,3,49" TextWrapping="Wrap" TextAlignment="Center">Turn all the lights off (black) to win the game!</TextBlock>
+    </Grid>
+</Window>
