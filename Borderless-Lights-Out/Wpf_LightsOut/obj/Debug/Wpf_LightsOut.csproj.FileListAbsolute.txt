@@ -1,0 +1,16 @@
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\bin\Debug\Wpf_LightsOut.exe.config
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\bin\Debug\Wpf_LightsOut.exe
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\bin\Debug\Wpf_LightsOut.pdb
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\Wpf_LightsOut.csprojAssemblyReference.cache
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\AboutWindow.baml
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\MainWindow.baml
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\AboutWindow.g.cs
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\MainWindow.g.cs
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\App.g.cs
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\Wpf_LightsOut_MarkupCompile.cache
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\Wpf_LightsOut.g.resources
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\Wpf_LightsOut.Properties.Resources.resources
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\Wpf_LightsOut.csproj.GenerateResource.cache
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\Wpf_LightsOut.csproj.CoreCompileInputs.cache
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\Wpf_LightsOut.exe
+C:\Users\Judah\Documents\GitHub\Borderless-Lights-Out\Borderless-Lights-Out\Wpf_LightsOut\obj\Debug\Wpf_LightsOut.pdb
