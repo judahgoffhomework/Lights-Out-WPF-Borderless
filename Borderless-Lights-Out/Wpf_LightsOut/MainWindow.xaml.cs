@@ -19,7 +19,6 @@ namespace Wpf_LightsOut
             InitializeComponent();
 
             game = new LightsOutGame();
-            SizeThree.IsChecked = true;
             CreateGrid();
             DrawGrid();
         }
@@ -113,41 +112,29 @@ namespace Wpf_LightsOut
             about.ShowDialog();
         }
 
-        private void SizeChanged_Click(object sender, RoutedEventArgs e)
-        {
-            MenuItem menuItem = sender as MenuItem;
-            SizeThree.IsChecked = false;
-            SizeFive.IsChecked = false;
-            SizeSeven.IsChecked = false;
-            switch (menuItem.Name)
-            {
-                case "SizeThree":
-                    SizeThree.IsChecked = true;
-                    game.GridSize = 3;
-                    break;
-                case "SizeFive":
-                    SizeFive.IsChecked = true;
-                    game.GridSize = 5;
-                    break;
-                case "SizeSeven":
-                    SizeSeven.IsChecked = true;
-                    game.GridSize = 7;
-                    break;
-            }
-
-            CreateGrid();
-            DrawGrid();
-        }
-
-        private void MenuExit_Click(object sender, RoutedEventArgs e)
+        private void ExitGame_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
         }
 
-        private void MenuNew_Click(object sender, RoutedEventArgs e)
+        private void NewGame_Click(object sender, RoutedEventArgs e)
         {
             game.NewGame();
             DrawGrid();
+        }
+
+        // Found override at https://stackoverflow.com/questions/1761854/cant-drag-and-move-a-wpf-form/2307484#2307484
+        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
+        {
+            base.OnMouseLeftButtonDown(e);
+
+            // Begin dragging the window
+            DragMove();
+        }
+
+        private void CanExit(object sender, CanExecuteRoutedEventArgs e)
+        {
+            e.CanExecute = game != null && game.IsGameOver();
         }
     }
 }
